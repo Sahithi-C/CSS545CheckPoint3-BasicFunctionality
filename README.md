@@ -13,14 +13,15 @@ The Vegetarian Recipe Seeker App is designed for convenience, allowing users to 
 - **Login and Signup Page**: Implemented user authentication, allowing users to log in with preset credentials (username: `user`, password: `1234`).
 - **Home Screen**: Created the home screen with a drawer layout and a list of dishes, allowing navigation to different sections of the app.
 - **Search Activity**: Implemented a search feature to find recipes quickly, displaying a list of dishes with filtering capabilities.
+- **SQLite Database Setup**: Introduced an SQLite database to store and retrieve recipes dynamically instead of hardcoding, making the app more scalable.
+- **Tombstone Management**: Ensured that if a user leaves the app, they can return to the same screen (e.g., specific recipe page or search results), improving the continuity and overall user experience.
 - **Recipe Details Page**: Developed the `RecipeDetailActivity` to show detailed information for selected recipes, particularly for one dish, with specific ingredients and instructions.
 - **Favorite Feature**: Integrated functionality to allow users to mark recipes as favorites, with persistent storage using `SharedPreferences`.
 - **Navigation Bar**: Set up a side navigation bar for easy access to different parts of the app.
 
 ### Still Has to Be Implemented
 - **User Registration**: Extend the login functionality to include user registration for new accounts.
-- **Dynamic Recipe Data**: Fetch recipe data dynamically from a database or API instead of hardcoding, enabling a broader range of recipes.
 - **Allergen and Warning Notifications**: Implement a system to display allergens and warnings associated with each recipe prior to viewing.
 - **User Interface Enhancements**: Improve the overall UI/UX for a more engaging experience, focusing on design elements and usability.
 - **Testing and Debugging**: Conduct thorough testing to identify and resolve any bugs or usability issues across all screens.
-- **Additional Recipe Details**: Expand the `RecipeDetailActivity` to include details for recipes other than that one dish ensuring all recipes have ingredient and instruction information.
+- **Wide range of recipes**: Populate the database to include details for a wide range of recipes other than that one dish ensuring all recipes have ingredient and instruction information.
